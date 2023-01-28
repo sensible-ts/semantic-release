@@ -6,12 +6,19 @@
   "license": "MIT",
   "homepage": "https://github.com/sensible-ts/semantic-release",
   "main": "index.json",
+  "scripts": {
+    "check": "prettier --check .",
+    "fix": "prettier --write .",
+    "prepack": "npm run check"
+  },
   "peerDependencies": {
     "conventional-changelog-conventionalcommits": "^5.0.0"
   },
   "devDependencies": {
+    "@sensible-ts/prettier": "^1.0.0",
     "conventional-changelog-conventionalcommits": "^5.0.0"
   },
+  "prettier": "@sensible-ts/prettier",
   "release": {
     "extends": "./index.json"
   },
