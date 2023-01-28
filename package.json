@@ -6,6 +6,9 @@
   "license": "MIT",
   "homepage": "https://github.com/sensible-ts/semantic-release",
   "main": "index.json",
+  "peerDependencies": {
+    "conventional-changelog-conventionalcommits": "^5.0.0"
+  },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^5.0.0"
   },
