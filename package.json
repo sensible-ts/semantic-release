@@ -2,7 +2,10 @@
   "name": "@sensible-ts/semantic-release",
   "version": "0.0.0",
   "description": "A sensible semantic-release config",
-  "repository": "sensible-ts/semantic-release",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensible-ts/semantic-release.git"
+  },
   "license": "MIT",
   "homepage": "https://github.com/sensible-ts/semantic-release",
   "main": "index.json",
